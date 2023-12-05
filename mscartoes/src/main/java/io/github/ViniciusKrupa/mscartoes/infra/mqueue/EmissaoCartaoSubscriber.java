@@ -8,12 +8,14 @@ import io.github.ViniciusKrupa.mscartoes.domain.DadosSolicitacaoEmissaoCartao;
 import io.github.ViniciusKrupa.mscartoes.infra.repository.CartaoRepository;
 import io.github.ViniciusKrupa.mscartoes.infra.repository.ClienteCartaoRepository;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.messaging.handler.annotation.Payload;
 import org.springframework.stereotype.Component;
 
 @Component
 @RequiredArgsConstructor
+@Slf4j
 public class EmissaoCartaoSubscriber {
 
     private final CartaoRepository cartaoRepository;
@@ -37,7 +39,7 @@ public class EmissaoCartaoSubscriber {
 
             clienteCartaoRepository.save(clienteCartao);
         } catch (Exception e) {
-            e.printStackTrace();
+            log.error("Erro ao receber solicitação de emissão de cartão: {} ", e.getMessage());
         }
     }
 }
