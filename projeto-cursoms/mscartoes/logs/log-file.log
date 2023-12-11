@@ -1,0 +1,797 @@
+2023-12-07 15:07:15.984  INFO 21480 --- [restartedMain] i.g.V.mscartoes.MscartoesApplication     : Starting MscartoesApplication using Java 17.0.4.1 on GFT-AxIsdrieZ4m with PID 21480 (C:\Users\vsoa\Intellij-workspace\Curso Udemy\Projetos\mscartoes\target\classes started by vsoa in C:\Users\vsoa\Intellij-workspace\Curso Udemy\Projetos\mscartoes)
+2023-12-07 15:07:15.993  INFO 21480 --- [restartedMain] i.g.V.mscartoes.MscartoesApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-12-07 15:07:16.101  INFO 21480 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-12-07 15:07:16.101  INFO 21480 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-12-07 15:07:18.133  INFO 21480 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-07 15:07:18.448  INFO 21480 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 285 ms. Found 2 JPA repository interfaces.
+2023-12-07 15:07:19.269  INFO 21480 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=9fcfd48b-9f8b-36f7-8b05-e5db057a78c9
+2023-12-07 15:07:21.380  INFO 21480 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-12-07 15:07:21.416  INFO 21480 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-07 15:07:21.418  INFO 21480 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-12-07 15:07:21.816  INFO 21480 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-07 15:07:21.817  INFO 21480 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5715 ms
+2023-12-07 15:07:23.039  INFO 21480 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-12-07 15:07:24.008  INFO 21480 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-12-07 15:07:24.054  INFO 21480 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:02bd6ffd-111f-49c3-93b4-e94f185d1038'
+2023-12-07 15:07:26.185  INFO 21480 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-07 15:07:26.375  INFO 21480 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2023-12-07 15:07:26.859  INFO 21480 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-12-07 15:07:27.159  INFO 21480 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-12-07 15:07:28.416  INFO 21480 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-07 15:07:28.437  INFO 21480 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-07 15:07:29.528  WARN 21480 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-07 15:07:32.816  WARN 21480 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-12-07 15:07:33.228  INFO 21480 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2023-12-07 15:07:33.417  WARN 21480 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-12-07 15:07:33.429  INFO 21480 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 17 endpoint(s) beneath base path '/actuator'
+2023-12-07 15:07:33.646  INFO 21480 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 52980 (http) with context path ''
+2023-12-07 15:07:33.649  INFO 21480 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 52980
+2023-12-07 15:07:33.658  INFO 21480 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-12-07 15:07:33.822  INFO 21480 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2023-12-07 15:07:33.834  INFO 21480 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-12-07 15:07:33.902  INFO 21480 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-12-07 15:07:33.903  INFO 21480 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-12-07 15:07:33.904  INFO 21480 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-12-07 15:07:33.904  INFO 21480 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-12-07 15:07:33.905  INFO 21480 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-12-07 15:07:33.905  INFO 21480 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2023-12-07 15:07:33.906  INFO 21480 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-12-07 15:07:34.573  INFO 21480 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-12-07 15:07:34.577  INFO 21480 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2023-12-07 15:07:34.583  INFO 21480 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-12-07 15:07:34.591  INFO 21480 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1701972454589 with initial instances count: 1
+2023-12-07 15:07:34.596  INFO 21480 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application MSCARTOES with eureka with status UP
+2023-12-07 15:07:34.597  INFO 21480 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1701972454597, current=UP, previous=STARTING]
+2023-12-07 15:07:34.600  INFO 21480 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:07:34.782  INFO 21480 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:07:34.921  INFO 21480 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2023-12-07 15:07:35.152  INFO 21480 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#684b5620:0/SimpleConnection@208b5b18 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 52983]
+2023-12-07 15:07:35.294  INFO 21480 --- [restartedMain] i.g.V.mscartoes.MscartoesApplication     : Started MscartoesApplication in 20.399 seconds (JVM running for 21.55)
+2023-12-07 15:08:04.614  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:08:04.614  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:08:04.625  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:08:34.638  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:08:34.639  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:08:34.649  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:09:04.664  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:09:04.665  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:09:04.671  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:09:34.678  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:09:34.679  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:09:34.685  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:10:04.694  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:10:04.694  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:10:04.700  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:10:34.714  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:10:34.716  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:10:34.723  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:11:04.747  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:11:04.747  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:11:04.753  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:11:34.775  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:11:34.777  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:11:34.785  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:12:04.799  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:12:04.800  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:12:04.814  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:12:33.924  INFO 21480 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-12-07 15:12:34.839  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:12:34.840  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:12:34.847  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:13:04.860  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:13:04.860  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:13:04.865  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:13:34.882  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:13:34.882  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:13:34.887  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:14:04.910  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:14:04.911  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:14:04.918  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:14:34.932  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:14:34.932  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:14:34.937  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:15:04.950  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:15:04.950  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:15:04.960  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:15:34.978  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:15:34.978  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:15:34.984  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:16:05.001  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:16:05.001  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:16:05.007  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:16:35.028  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:16:35.029  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:16:35.034  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:17:05.046  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:17:05.047  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:17:05.051  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:17:33.945  INFO 21480 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-12-07 15:17:35.067  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:17:35.067  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:17:35.071  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:18:05.083  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:18:05.083  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:18:05.088  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:18:35.105  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:18:35.105  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:18:35.110  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:19:05.117  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:19:05.118  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:19:05.123  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:19:35.137  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:19:35.138  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:19:35.142  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:20:05.150  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:20:05.151  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:20:05.159  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:20:35.179  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:20:35.180  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:20:35.186  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:21:05.196  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:21:05.196  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:21:05.203  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:21:35.217  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:21:35.218  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:21:35.227  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:22:05.235  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:22:05.236  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:22:05.240  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:22:33.962  INFO 21480 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-12-07 15:22:35.257  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:22:35.258  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:22:35.263  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:23:05.272  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:23:05.274  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:23:05.281  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:23:35.299  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:23:35.301  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:23:35.309  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:24:05.328  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:24:05.329  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:24:05.334  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:24:35.347  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:24:35.348  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:24:35.356  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:25:05.378  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:25:05.379  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:25:05.389  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:25:35.402  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:25:35.403  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:25:35.412  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:26:05.422  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:26:05.423  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:26:05.430  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:26:35.447  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:26:35.447  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:26:35.454  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:27:05.470  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:27:05.471  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:27:05.480  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:27:33.970  INFO 21480 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-12-07 15:27:35.491  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:27:35.492  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:27:35.496  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:28:05.510  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:28:05.510  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:28:05.514  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:28:35.528  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:28:35.529  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:28:35.534  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:29:05.552  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:29:05.553  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:29:05.559  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:29:35.582  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:29:35.584  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:29:35.592  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:30:05.615  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:30:05.616  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:30:05.626  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:30:35.750  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:30:35.751  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:30:35.757  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:31:05.767  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:31:05.768  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:31:05.772  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:31:35.789  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:31:35.790  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:31:35.796  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:32:05.808  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:32:05.809  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:32:05.813  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:32:33.978  INFO 21480 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-12-07 15:32:35.829  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:32:35.829  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:32:35.833  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:33:05.845  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:33:05.845  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:33:05.849  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:33:35.867  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:33:35.868  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:33:35.874  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:34:05.883  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:34:05.884  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:34:05.888  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:34:35.910  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:34:35.911  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:34:35.919  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:35:05.938  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:35:05.938  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:35:05.943  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:35:35.952  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:35:35.952  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:35:35.957  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:36:05.968  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:36:05.968  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:36:05.971  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:36:35.991  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:36:35.993  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:36:36.003  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:37:06.022  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:37:06.024  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:37:06.033  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:37:33.986  INFO 21480 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-12-07 15:37:36.041  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:37:36.042  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:37:36.046  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:38:06.068  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:38:06.069  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:38:06.072  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:38:36.081  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:38:36.081  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:38:36.084  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:39:06.097  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:39:06.097  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:39:06.101  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:39:36.118  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:39:36.118  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:39:36.122  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:40:06.140  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:40:06.141  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:40:06.148  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:40:36.166  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:40:36.167  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:40:36.170  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:41:06.183  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:41:06.184  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:41:06.188  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:41:36.206  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:41:36.208  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:41:36.212  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:42:06.230  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:42:06.231  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:42:06.233  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:42:33.994  INFO 21480 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-12-07 15:42:36.247  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:42:36.247  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:42:36.251  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:43:06.262  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:43:06.263  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:43:06.267  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:43:36.278  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:43:36.278  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:43:36.282  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:44:06.295  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:44:06.296  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:44:06.301  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:44:36.320  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:44:36.321  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:44:36.325  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:45:06.334  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:45:06.334  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:45:06.337  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:45:36.357  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:45:36.357  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:45:36.361  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:46:06.382  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:46:06.382  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:46:06.384  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:46:36.395  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:46:36.396  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:46:36.399  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:47:06.405  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:47:06.406  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:47:06.411  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:47:33.999  INFO 21480 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-12-07 15:47:36.431  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:47:36.431  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:47:36.437  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:48:06.452  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:48:06.453  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:48:06.460  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:48:36.477  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:48:36.478  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:48:36.485  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:49:06.496  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:49:06.497  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:49:06.500  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:49:36.511  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:49:36.512  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:49:36.516  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:50:06.528  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:50:06.529  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:50:06.540  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:50:36.556  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:50:36.557  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:50:36.559  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:51:06.569  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:51:06.570  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:51:06.574  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:51:36.587  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:51:36.588  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:51:36.593  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:52:06.611  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:52:06.612  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:52:06.617  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:52:34.011  INFO 21480 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-12-07 15:52:36.633  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:52:36.634  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:52:36.638  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:53:06.644  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:53:06.645  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:53:06.648  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:53:36.764  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:53:36.764  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:53:36.770  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:54:06.793  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:54:06.794  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:54:06.803  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:54:36.828  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:54:36.829  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:54:36.836  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:55:06.850  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:55:06.851  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:55:06.858  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:55:36.873  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:55:36.873  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:55:36.876  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:56:06.892  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:56:06.893  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:56:06.896  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:56:36.913  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:56:36.913  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:56:36.917  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:57:06.924  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:57:06.924  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:57:06.927  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:57:34.025  INFO 21480 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-12-07 15:57:36.945  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:57:36.946  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:57:36.952  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:58:06.957  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:58:06.958  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:58:06.961  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:58:36.968  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:58:36.968  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:58:36.971  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:59:06.988  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:59:06.988  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:59:06.993  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 15:59:36.997  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 15:59:36.997  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 15:59:36.999  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 16:00:07.011  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 16:00:07.012  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 16:00:07.015  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 16:00:37.024  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 16:00:37.024  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 16:00:37.028  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 16:01:07.040  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 16:01:07.041  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 16:01:07.048  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 16:01:37.060  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 16:01:37.060  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 16:01:37.063  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 16:02:07.075  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 16:02:07.076  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 16:02:07.093  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 16:02:34.040  INFO 21480 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-12-07 16:02:37.111  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 16:02:37.111  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 16:02:37.114  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 16:03:07.121  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 16:03:07.121  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 16:03:07.129  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 16:03:37.140  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 16:03:37.141  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 16:03:37.145  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 16:04:07.162  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 16:04:07.163  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 16:04:07.170  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 16:04:37.183  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 16:04:37.183  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 16:04:37.186  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 16:05:07.200  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - Re-registering apps/MSCARTOES
+2023-12-07 16:05:07.201  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 16:05:07.204  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 16:05:24.855  INFO 21480 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@6092e0b4: tags=[[amq.ctag-i42FbL7yXKhWSRdNYdqPtA]], channel=Cached Rabbit Channel: AMQChannel(amqp://guest@127.0.0.1:5672/,1), conn: Proxy@1a725079 Shared Rabbit Connection: SimpleConnection@208b5b18 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 52983], acknowledgeMode=AUTO local queue size=0
+2023-12-07 16:05:24.866  INFO 21480 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2023-12-07 16:05:30.712  WARN 21480 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2023-12-07 16:05:30.713  INFO 21480 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@650529fb: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2023-12-07 16:05:30.714  INFO 21480 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-3] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2023-12-07 16:05:34.098  INFO 21480 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application MSCARTOES with eureka with status DOWN
+2023-12-07 16:05:34.102  INFO 21480 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1701975934102, current=DOWN, previous=UP]
+2023-12-07 16:05:34.111  INFO 21480 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9 : registering service...
+2023-12-07 16:05:34.157  INFO 21480 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - registration status: 204
+2023-12-07 16:05:34.251  INFO 21480 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-4] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2023-12-07 16:05:34.252  INFO 21480 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-4] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2023-12-07 16:05:34.475  INFO 21480 --- [SpringApplicationShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Shutdown ignored - container is already stopped
+2023-12-07 16:05:34.482  INFO 21480 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-07 16:05:34.496  INFO 21480 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-12-07 16:05:34.802  WARN 21480 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-212]
+2023-12-07 16:05:34.808  INFO 21480 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-12-07 16:05:34.825  INFO 21480 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-12-07 16:05:34.827  INFO 21480 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2023-12-07 16:05:36.730  INFO 21480 --- [DiscoveryClient-CacheRefreshExecutor-0] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://cursoms-eureka-user:ecok-usr-eeuramssur@localhost:8761/eureka/} exception=I/O error on GET request for "http://cursoms-eureka-user:ecok-usr-eeuramssur@localhost:8761/eureka/apps/delta": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://cursoms-eureka-user:ecok-usr-eeuramssur@localhost:8761/eureka/apps/delta": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.getApplicationsInternal(RestTemplateEurekaHttpClient.java:145)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.getDelta(RestTemplateEurekaHttpClient.java:155)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:91)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1135)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:1016)
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1531)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1498)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:109)
+	at org.springframework.http.client.support.BasicAuthenticationInterceptor.intercept(BasicAuthenticationInterceptor.java:79)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:93)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:77)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 22 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:579)
+	at java.base/sun.nio.ch.Net.connect(Net.java:568)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 41 more
+
+2023-12-07 16:05:36.731  WARN 21480 --- [DiscoveryClient-CacheRefreshExecutor-0] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on GET request for "http://cursoms-eureka-user:ecok-usr-eeuramssur@localhost:8761/eureka/apps/delta": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2023-12-07 16:05:36.782  INFO 21480 --- [DiscoveryClient-CacheRefreshExecutor-0] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://cursoms-eureka-user:ecok-usr-eeuramssur@localhost:8761/eureka/}, exception=I/O error on GET request for "http://cursoms-eureka-user:ecok-usr-eeuramssur@localhost:8761/eureka/apps/delta": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://cursoms-eureka-user:ecok-usr-eeuramssur@localhost:8761/eureka/apps/delta": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.getApplicationsInternal(RestTemplateEurekaHttpClient.java:145)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.getDelta(RestTemplateEurekaHttpClient.java:155)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1135)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:1016)
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1531)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1498)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:109)
+	at org.springframework.http.client.support.BasicAuthenticationInterceptor.intercept(BasicAuthenticationInterceptor.java:79)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:93)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:77)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 23 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:579)
+	at java.base/sun.nio.ch.Net.connect(Net.java:568)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 42 more
+
+2023-12-07 16:05:36.783  WARN 21480 --- [DiscoveryClient-CacheRefreshExecutor-0] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on GET request for "http://cursoms-eureka-user:ecok-usr-eeuramssur@localhost:8761/eureka/apps/delta": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2023-12-07 16:05:36.784  INFO 21480 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - was unable to refresh its cache! This periodic background refresh will be retried in 30 seconds. status = Cannot execute request on any known server stacktrace = com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1135)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:1016)
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1531)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1498)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+2023-12-07 16:05:37.210  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://cursoms-eureka-user:ecok-usr-eeuramssur@localhost:8761/eureka/} exception=I/O error on PUT request for "http://cursoms-eureka-user:ecok-usr-eeuramssur@localhost:8761/eureka/apps/MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on PUT request for "http://cursoms-eureka-user:ecok-usr-eeuramssur@localhost:8761/eureka/apps/MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.sendHeartBeat(RestTemplateEurekaHttpClient.java:99)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:91)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:893)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1457)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:109)
+	at org.springframework.http.client.support.BasicAuthenticationInterceptor.intercept(BasicAuthenticationInterceptor.java:79)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:93)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:77)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 19 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:579)
+	at java.base/sun.nio.ch.Net.connect(Net.java:568)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 38 more
+
+2023-12-07 16:05:37.211  WARN 21480 --- [DiscoveryClient-HeartbeatExecutor-0] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on PUT request for "http://cursoms-eureka-user:ecok-usr-eeuramssur@localhost:8761/eureka/apps/MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2023-12-07 16:05:37.254  INFO 21480 --- [DiscoveryClient-HeartbeatExecutor-0] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://cursoms-eureka-user:ecok-usr-eeuramssur@localhost:8761/eureka/}, exception=I/O error on PUT request for "http://cursoms-eureka-user:ecok-usr-eeuramssur@localhost:8761/eureka/apps/MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on PUT request for "http://cursoms-eureka-user:ecok-usr-eeuramssur@localhost:8761/eureka/apps/MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.sendHeartBeat(RestTemplateEurekaHttpClient.java:99)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:893)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1457)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:109)
+	at org.springframework.http.client.support.BasicAuthenticationInterceptor.intercept(BasicAuthenticationInterceptor.java:79)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:93)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:77)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 20 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:579)
+	at java.base/sun.nio.ch.Net.connect(Net.java:568)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 39 more
+
+2023-12-07 16:05:37.254  WARN 21480 --- [DiscoveryClient-HeartbeatExecutor-0] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on PUT request for "http://cursoms-eureka-user:ecok-usr-eeuramssur@localhost:8761/eureka/apps/MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2023-12-07 16:05:37.273 ERROR 21480 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - was unable to send heartbeat!
+
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:893) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1457) ~[eureka-client-1.10.17.jar:1.10.17]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2023-12-07 16:05:37.843  INFO 21480 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2023-12-07 16:05:37.852  INFO 21480 --- [SpringApplicationShutdownHook] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://cursoms-eureka-user:ecok-usr-eeuramssur@localhost:8761/eureka/}, exception=I/O error on DELETE request for "http://cursoms-eureka-user:ecok-usr-eeuramssur@localhost:8761/eureka/apps/MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on DELETE request for "http://cursoms-eureka-user:ecok-usr-eeuramssur@localhost:8761/eureka/apps/MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.cancel(RestTemplateEurekaHttpClient.java:87)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:197)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:190)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:390)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:213)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1161)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:174)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:145)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:114)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:109)
+	at org.springframework.http.client.support.BasicAuthenticationInterceptor.intercept(BasicAuthenticationInterceptor.java:79)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:93)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:77)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 40 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:579)
+	at java.base/sun.nio.ch.Net.connect(Net.java:568)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 59 more
+
+2023-12-07 16:05:37.852  WARN 21480 --- [SpringApplicationShutdownHook] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on DELETE request for "http://cursoms-eureka-user:ecok-usr-eeuramssur@localhost:8761/eureka/apps/MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2023-12-07 16:05:37.854 ERROR 21480 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:8b5bff94fee45aaa83c6b39a9be041a9  - de-registration failedCannot execute request on any known server
+
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948) ~[eureka-client-1.10.17.jar:1.10.17]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:197) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:190) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:390) ~[spring-cloud-context-3.1.1.jar:3.1.1]
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136) ~[spring-cloud-context-3.1.1.jar:3.1.1]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:213) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1161) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1154) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:174) ~[spring-boot-2.7.0.jar:2.7.0]
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:145) ~[spring-boot-2.7.0.jar:2.7.0]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[na:na]
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:114) ~[spring-boot-2.7.0.jar:2.7.0]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2023-12-07 16:05:37.862  INFO 21480 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
